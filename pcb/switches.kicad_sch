@@ -1191,12 +1191,6 @@
 		(uuid "1113b2ce-e61b-4bba-80ce-7fb832a2ae94")
 	)
 	(junction
-		(at 261.62 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14bc6924-82ec-4195-adda-8c3f02a6056a")
-	)
-	(junction
 		(at 256.54 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1239,6 +1233,12 @@
 		(uuid "3634ce74-3aaf-4a8b-9d24-7296459ea62f")
 	)
 	(junction
+		(at 261.62 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3944d611-dd06-4571-be95-22a868ae19d5")
+	)
+	(junction
 		(at 238.76 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1273,6 +1273,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "876268e4-eb05-405c-889f-f693462ccb11")
+	)
+	(junction
+		(at 259.08 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bbce314-6d2f-4a21-bb35-9f1ac22274e8")
 	)
 	(junction
 		(at 233.68 87.63)
@@ -1339,12 +1345,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cab44e66-3de1-45ad-a7d0-ee228764ddf1")
-	)
-	(junction
-		(at 259.08 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8a31943-1dec-4b89-9bf6-883b9122df44")
 	)
 	(junction
 		(at 236.22 68.58)
@@ -1513,16 +1513,6 @@
 			(type default)
 		)
 		(uuid "13ec3015-3928-455f-aaee-a9ddcfb4bda9")
-	)
-	(wire
-		(pts
-			(xy 261.62 105.41) (xy 267.97 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18922890-acf1-4b90-9d7e-075f35ae3700")
 	)
 	(wire
 		(pts
@@ -1823,6 +1813,16 @@
 			(type default)
 		)
 		(uuid "3e2a3822-0c4c-4359-a86e-9ed135c146f0")
+	)
+	(wire
+		(pts
+			(xy 259.08 102.87) (xy 267.97 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2fbce1-d843-438b-a636-834ee7ebd145")
 	)
 	(wire
 		(pts
@@ -2526,16 +2526,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 102.87) (xy 267.97 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc0a53df-b965-4f8e-a834-628115a0e60d")
-	)
-	(wire
-		(pts
 			(xy 223.52 97.79) (xy 254 97.79)
 		)
 		(stroke
@@ -2756,6 +2746,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 105.41) (xy 267.97 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6317e18-1d0f-46df-b15f-d4a4a8668c09")
+	)
+	(wire
+		(pts
 			(xy 223.52 87.63) (xy 233.68 87.63)
 		)
 		(stroke
@@ -2806,7 +2806,7 @@
 	)
 	(hierarchical_label "SW3"
 		(shape output)
-		(at 267.97 102.87 0)
+		(at 267.97 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2916,7 +2916,7 @@
 	)
 	(hierarchical_label "SW4"
 		(shape output)
-		(at 267.97 105.41 0)
+		(at 267.97 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
